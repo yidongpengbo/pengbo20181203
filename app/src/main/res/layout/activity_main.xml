@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--搜索-->
+    <com.bawei.pengbo20181203.TitleBarView
+        android:id="@+id/titleBarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <!--最近搜索-->
+    <com.bawei.pengbo20181203.WaterGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最近搜索"
+            android:textSize="25sp"
+            android:textColor="#cfc"
+            />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/ic_launcher_background"
+
+            />
+    </com.bawei.pengbo20181203.WaterGroupNameLayout>
+
+    <!--搜索布局-->
+    <com.bawei.pengbo20181203.WaterFollLayout
+        android:id="@+id/foll_seach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <!--搜索发现-->
+    <com.bawei.pengbo20181203.WaterGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text="搜索发现"
+        app:textsize="25sp"
+        app:textColor="#cf0"
+        android:layout_marginTop="10dp"
+        >
+    </com.bawei.pengbo20181203.WaterGroupNameLayout>
+
+
+    <!--热门布局-->
+    <com.bawei.pengbo20181203.WaterFollLayout
+        android:id="@+id/foll_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

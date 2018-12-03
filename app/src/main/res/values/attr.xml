@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaterGroupNameLayout">
+       <attr name="textColor" format="color"></attr>
+        <attr name="textsize" format="dimension"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+</resources>
